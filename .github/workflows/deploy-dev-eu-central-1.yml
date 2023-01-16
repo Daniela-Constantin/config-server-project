@@ -26,5 +26,5 @@ jobs:
         run: |
           docker build -t config-service .
           docker tag config-service:latest 453613237449.dkr.ecr.eu-central-1.amazonaws.com/config-service-repository-dev:latest
-          docker push 453613237449.dkr.ecr.eu-central-1.amazonaws.com/booksapp:config-service
+          docker push 453613237449.dkr.ecr.eu-central-1.amazonaws.com/config-service:latest
   
