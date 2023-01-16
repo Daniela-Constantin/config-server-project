@@ -2,7 +2,7 @@ name: "deploy-dev-eu-central-1"
 on: 
   push:
     branches:
-    - main
+    - master
 jobs:
   BuildAndPushToECR:
     name: "BuildAndPushToECR"
